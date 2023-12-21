@@ -1,4 +1,4 @@
-export function Home() {
+function Home() {
   return (
     <div className="bg-black">
       <div className="flex flex-1 items-center justify-center">

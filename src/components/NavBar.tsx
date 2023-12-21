@@ -1,6 +1,7 @@
 import React from "react";
 import { Disclosure} from "@headlessui/react";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
+import {Link} from "react-router-dom"
 
 const navigation = [
   { name: "Home", href: "", current: false },
@@ -33,12 +34,12 @@ export default function NavBar() {
                 <div className="hidden sm:ml-6 sm:block">
                   <div className="flex space-x-4">
                     {navigation.map((item) => (
-                      <a
+                      <Link
                         key={item.name}
-                        href={item.href}
+                        to={item.href}
                         className= "text-lightgray hover:underline">
                         {item.name}
-                      </a>
+                      </Link>
                     ))}
                   </div>
                 </div>
