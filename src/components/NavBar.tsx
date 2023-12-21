@@ -37,7 +37,7 @@ export default function NavBar() {
                       <Link
                         key={item.name}
                         to={item.href}
-                        className= "text-lightgray hover:underline">
+                        className= "text-lightgray hover:underline hover:t">
                         {item.name}
                       </Link>
                     ))}
