@@ -1,4 +1,14 @@
-function Home() {
+import { useEffect } from "react";
+
+const changeTitle = async (props: any) => {
+  document.title = props.title;
+};
+
+function Home(props: any) {
+  useEffect(() => {
+    changeTitle(props);
+  });
+
   return (
     <div className="bg-black">
       <div className="flex flex-1 items-center justify-center">
@@ -66,11 +76,12 @@ function Home() {
             </div>
           </div>
           <div className="flex items-center justify-center">
-          <img
-            className="rounded-lg md:ml-20 md:w-80 md:h-80 w-30 h-30 text-white max-w-xs"
-            src="https://avatars.githubusercontent.com/u/51172492?v=4"
-            alt="me"
-          ></img></div>
+            <img
+              className="rounded-lg md:ml-20 md:w-80 md:h-80 w-30 h-30 text-white max-w-xs"
+              src="https://avatars.githubusercontent.com/u/51172492?v=4"
+              alt="me"
+            ></img>
+          </div>
         </div>
       </div>
     </div>

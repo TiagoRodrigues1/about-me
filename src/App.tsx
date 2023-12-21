@@ -11,8 +11,8 @@ function App() {
     <section>
       <NavBar/>
       <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/about" element={<About />} />
+        <Route path="/" element={<Home title ="Home | Tiago Rodrigues"/>} />
+        <Route path="/about" element={<About title ="About | Tiago Rodrigues" />} />
         <Route path ="*" element={<NotFound />} />
       </Routes>
       <head>
