@@ -65,9 +65,9 @@ export function Home() {
               </ul>
             </div>
           </div>
-          <div>
+          <div className="flex items-center justify-center">
           <img
-            className="rounded-lg ml-20 md:w-80 md:h-80 w-30 h-30 text-white"
+            className="rounded-lg md:ml-20 md:w-80 md:h-80 w-30 h-30 text-white max-w-xs"
             src="https://avatars.githubusercontent.com/u/51172492?v=4"
             alt="me"
           ></img></div>
