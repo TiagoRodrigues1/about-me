@@ -3,7 +3,7 @@ import { Disclosure} from "@headlessui/react";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
 
 const navigation = [
-  { name: "Home", href: "", current: true },
+  { name: "Home", href: "", current: false },
   { name: "About", href: "about", current: false }];
 
 function classNames(...classes: string[]) {
@@ -36,14 +36,7 @@ export default function NavBar() {
                       <a
                         key={item.name}
                         href={item.href}
-                        className={classNames(
-                          item.current
-                            ? "bg-gray-900 text-lightgrey"
-                            : "text-white hover:bg-gray-700 hover:text-white",
-                          "rounded-md px-3 py-2 text-sm font-medium"
-                        )}
-                        aria-current={item.current ? "page" : undefined}
-                      >
+                        className= "text-lightgray hover:underline">
                         {item.name}
                       </a>
                     ))}
@@ -62,7 +55,7 @@ export default function NavBar() {
                   href={item.href}
                   className={classNames(
                     item.current
-                      ? "bg-gray text-lightgrey"
+                      ? "bg-gray text-lightgrey hover:underline"
                       : "text-white hover:bg-gray-700 hover:text-white",
                     "block rounded-md px-3 py-2 text-base font-medium"
                   )}

@@ -3,7 +3,7 @@ export function Home() {
     <div className="bg-black">
       <div className="flex flex-1 items-center justify-center">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mt-10">
-          <div className="mt-8">
+          <div className="md:mt-8">
             <h1 className="text-white text-xl font-semibold mb-4">Hello 👋</h1>
             <p className="mb-4 text-white">
               I'm Tiago, a software engineer from Portugal.
