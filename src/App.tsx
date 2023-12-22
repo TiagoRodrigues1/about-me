@@ -3,9 +3,9 @@ import Home from "components/Home";
 import About from "components/About";
 import NotFound from "components/NotFound";
 import NavBar from "components/NavBar";
+import Footer from "components/Footer";
 
 import { Route, Routes } from "react-router-dom";
-import Footer from "components/Footer";
 
 function App() {
   return (
