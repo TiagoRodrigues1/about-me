@@ -5,6 +5,7 @@ import NotFound from "components/NotFound";
 import NavBar from "components/NavBar";
 
 import { Route, Routes } from "react-router-dom";
+import Footer from "components/Footer";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
           url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;700&display=swap');
         </style>
       </head>
+      <section className="section-body">
       <NavBar />
       <Routes>
         <Route path="/" element={<Home title="Home | Tiago Rodrigues" />} />
@@ -24,6 +26,8 @@ function App() {
         />
         <Route path="*" element={<NotFound />} />
       </Routes>
+      <Footer />
+      </section>
     </section>
   );
 }

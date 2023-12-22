@@ -21,7 +21,22 @@ h1,a,li,p {
   margin-left: 6px;
 }
 
+section {
+  min-height: 100vh;
+}
+
 .underline-anchor {
   text-decoration-color: #39bcf8;
   text-decoration-thickness: 0.1rem;
+}
+
+
+.section-body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+footer {
+  margin-top: auto;
 }
