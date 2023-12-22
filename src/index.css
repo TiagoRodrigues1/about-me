@@ -17,6 +17,10 @@ code {
     monospace;
 }
 
+h1,a,li,p {
+  margin-left: 6px;
+}
+
 .underline-anchor {
   text-decoration-color: #39bcf8;
   text-decoration-thickness: 0.1rem;
