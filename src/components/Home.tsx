@@ -23,7 +23,7 @@ function Home(props: any) {
               <ul className="flex flex-1 items-center gap-x-4 sm:flex-initial">
                 <li>
                   <a
-                    className="inline-block p-2 sm:hover:text-link"
+                    className="inline-block p-2 "
                     href="https://github.com/TiagoRodrigues1"
                     target="_blank"
                     rel="noopener noreferrer"
@@ -48,7 +48,7 @@ function Home(props: any) {
                 </li>
                 <li>
                   <a
-                    className="inline-block p-2 sm:hover:text-link"
+                    className="inline-block p-2"
                     href="https://www.linkedin.com/in/josetiagorodrigues"
                     target="_blank"
                     rel="noopener noreferrer"

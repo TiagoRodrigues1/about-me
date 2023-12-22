@@ -37,7 +37,7 @@ export default function NavBar() {
                       <Link
                         key={item.name}
                         to={item.href}
-                        className= "text-lightgray hover:underline hover:t">
+                        className= "text-lightgray underline hover:underline-anchor">
                         {item.name}
                       </Link>
                     ))}
@@ -56,7 +56,7 @@ export default function NavBar() {
                   href={item.href}
                   className={classNames(
                     item.current
-                      ? "bg-gray text-lightgrey hover:underline"
+                      ? "bg-gray text-lightgrey hover:underline-anchor"
                       : "text-white hover:bg-gray-700 hover:text-white",
                     "block rounded-md px-3 py-2 text-base font-medium"
                   )}

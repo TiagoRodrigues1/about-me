@@ -17,15 +17,7 @@ code {
     monospace;
 }
 
-p {
-  margin-left :6px
-}
-
-h1 {
-  margin-left: 6px
-}
-
-a {
+.underline-anchor {
   text-decoration-color: #39bcf8;
   text-decoration-thickness: 0.1rem;
 }
