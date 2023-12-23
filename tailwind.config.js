@@ -13,6 +13,7 @@ module.exports = {
       white: "#ffffff",
       black: "#1c1f20",
       blue: "#7f99e6",
+      darkWhite: "#E1D9D1"
     },
     container: {
       center: true,
@@ -36,4 +37,5 @@ module.exports = {
       addUtilities(newUtilities, ["responsive", "hover"]);
     },
   ],
+  darkMode: "class",
 };

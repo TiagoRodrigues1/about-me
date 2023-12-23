@@ -10,16 +10,18 @@ function Home(props: any) {
   });
 
   return (
-    <div className="bg-black">
+    <div className="bg-white dark:bg-black">
       <div className="flex flex-1 items-center justify-center">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mt-10">
           <div className="md:mt-8">
-            <h1 className="text-white text-xl font-semibold mb-4">Hello 👋</h1>
-            <p className="mb-4 text-white">
+            <h1 className="text-black dark:text-white text-xl font-semibold mb-4">
+              Hello 👋
+            </h1>
+            <p className="mb-4 text-black dark:text-white">
               I'm Tiago, a software engineer from Portugal.
             </p>
             <div className="flex flex-wrap items-center gap-x-4 sm:items-center ">
-              <p className="text-white">Find me at </p>
+              <p className="text-black dark:text-white">Find me at </p>
               <ul className="flex flex-1 items-center gap-x-4 sm:flex-initial">
                 <li>
                   <a
@@ -29,7 +31,7 @@ function Home(props: any) {
                     rel="noopener noreferrer"
                   >
                     <svg
-                      className="h-6 w-6"
+                      className="h-6 w-6 svg"
                       aria-hidden="true"
                       focusable="false"
                       xmlns="http://www.w3.org/2000/svg"
@@ -54,7 +56,7 @@ function Home(props: any) {
                     rel="noopener noreferrer"
                   >
                     <svg
-                      className="h-6 w-6"
+                      className="h-6 w-6 svg"
                       aria-hidden="true"
                       focusable="false"
                       xmlns="http://www.w3.org/2000/svg"
