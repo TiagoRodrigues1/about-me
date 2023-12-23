@@ -1,7 +1,6 @@
 import React from "react";
 import Home from "components/Home";
 import About from "components/About";
-import NotFound from "components/NotFound";
 import NavBar from "components/NavBar";
 import Footer from "components/Footer";
 
@@ -24,7 +23,7 @@ function App() {
           path="/about"
           element={<About title="About | Tiago Rodrigues" />}
         />
-        <Route path="*" element={<NotFound />} />
+        <Route path="*" element={<Home title="Home | Tiago Rodrigues" />} />
       </Routes>
       <Footer />
       </section>
