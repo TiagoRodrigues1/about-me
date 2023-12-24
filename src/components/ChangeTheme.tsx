@@ -24,7 +24,7 @@ function ChangeTheme() {
         data-tooltip-target="default-button-example-toggle-dark-mode-tooltip"
         type="button"
         data-toggle-dark="dark"
-        className="flex items-center w-9 h-9 justify-center text-xs font-medium text-white bg-darkWhite dark:bg-black rounded-lg toggle-dark-state-example dark:bg-gray focus:outline-none dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700"
+        className="transition ease-in-out flex items-center w-9 h-9 justify-center text-xs font-medium text-white bg-darkWhite dark:bg-black rounded-lg dark:bg-gray hover:scale-150 duration-300"
       >
         <svg
           data-toggle-icon="moon"
