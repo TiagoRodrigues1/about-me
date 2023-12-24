@@ -13,22 +13,6 @@ function ChangeTheme() {
     e.preventDefault();
     let theme =
       e.currentTarget.getAttribute("data-toggle-dark") === "dark" ? "light" : "dark";
-
-    let dark =  e.currentTarget.children.item(0);
-     let light =  e.currentTarget.children.item(1);
-     let hiddenClass;
-
-    // if(theme === "dark") {
-    //   hiddenClass = light.getAttribute("class")
-    //   light.setAttribute("class", hiddenClass.concat(" hidden"));
-    //   dark.setAttribute("class", hiddenClass);
-
-    // } else {
-    //   hiddenClass = dark.getAttribute("class")
-    //   dark.setAttribute("class", hiddenClass.concat(" hidden"));
-    //   light.setAttribute("class", hiddenClass);
-    // }
-
     setTheme(theme);
     e.currentTarget.setAttribute("data-toggle-dark", theme);
   };
