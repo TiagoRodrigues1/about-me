@@ -35,6 +35,8 @@ function About(props: any) {
             <a
               href="https://www.mobileum.com/"
               className="underline hover:underline-anchor"
+              target="_blank"
+              rel="noreferrer"
             >
               Mobileum
             </a>{" "}
@@ -48,6 +50,8 @@ function About(props: any) {
             <a
               href="https://www.ufp.pt/inicio/estudar-e-investigar/licenciaturas/engenharia-informatica/"
               className="underline hover:underline-anchor"
+              target="_blank"
+              rel="noreferrer"
             >
               UFP
             </a>{" "}
