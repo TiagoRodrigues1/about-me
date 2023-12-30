@@ -6,12 +6,6 @@ import Footer from "components/Footer";
 
 import { Route, Routes } from "react-router-dom";
 
-
-/* TODO: 
-        - Change icon and button color of theme switch
-        - See what is happening with the event of the button. Sometimes the data-toggle-dark value is null
-*/
-
 function App() {
   return (
     <section>
